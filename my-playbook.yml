@@ -1,6 +1,7 @@
 - name: variable playbook 
   hosts: localhost
-  vars_file: var-file.yml
+  vars:
+   - vars_file: var-file.yml
     - URL: "www.com.com"
   tasks:
     
