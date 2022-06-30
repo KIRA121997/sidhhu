@@ -3,10 +3,9 @@
   vars:
     - URL: "www.com.com"
   tasks:
-    - name: print url1
-      debug:
-      msg: "{{ URL}}"
+    
+     - debug:
+         msg: "{{ URL}}"
 
-    - name: print url2
-      debug:
-        msg: "{{ URL}}"  
+     - debug:
+         msg: "{{ URL}}"  
