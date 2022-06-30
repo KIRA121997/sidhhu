@@ -1,11 +1,12 @@
----
- - debug:
-    name: dhoom 
-  hosts: fff
-    vars :
-     url : cloudblitz.com
+- name: variable playbook 
+  hosts: localhost
+  vars:
+    - URL: "www.com.com"
   tasks:
-   - name : god-1
+    - name: print url1
+      debug:
+      msg: "{{ URL}}"
 
-- debug : 
-    url : omg.com 
+    - name: print url2
+      debug:
+        msg: "{{ URL}}"  
