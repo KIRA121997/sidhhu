@@ -1,12 +1,15 @@
 - name: variable playbook 
   hosts: localhost
-  vars:
    - vars_file: var-file.yml
-    - URL: "www.com.com"
-  tasks:
-    
-     - debug:
+     vars:
+       URL: "www.com.com"
+    tasks:
+      - name: one 
+       debug:
          msg: "{{ URL}}"
 
-     - debug:
-         msg: "{{ URL}}"  
+      - name: two
+       debug:
+         msg: "{{ URL}}"
+       vars:
+         URL: "AWS.CERTIFICATEWALE.COM"  
