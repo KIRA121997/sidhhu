@@ -1,5 +1,5 @@
 - name: variable playbook 
-  hosts: localhost
+  hosts: all 
    vars_file: varfile.yml
    vars:
        URL: "www.com.com"
