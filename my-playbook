@@ -1,0 +1,11 @@
+---
+ - debug:
+    name: dhoom 
+  hosts: fff
+    vars :
+     url : cloudblitz.com
+  tasks:
+   - name : god-1
+
+- debug : 
+    url : omg.com 
