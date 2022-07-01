@@ -1,7 +1,7 @@
 - name: playbook1 
   hosts: localhost
   vars_files: varfile.yml 
-   #URL: global.com
+   URL: global.com
   tasks: 
   - name: print message_1
     debug:
