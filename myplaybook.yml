@@ -1,4 +1,4 @@
-  - name: playbook
+  - name: myplaybook
     hosts: localhost
     vars:
       URL: global.com
