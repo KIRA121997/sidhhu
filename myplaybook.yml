@@ -1,5 +1,5 @@
--  name: myplaybook
-    hosts: localhost
+-  name: 
+    hosts: all
     vars:
       URL: global.com
     tasks: 
