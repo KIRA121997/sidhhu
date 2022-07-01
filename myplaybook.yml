@@ -1,9 +1,9 @@
-  - name: myplaybook
+-  name: myplaybook
     hosts: all
     vars:
       URL: global.com
     tasks: 
-    - name: print message_1
+-  name: print message_1
     debug:
       msg: "{{URL}}"
     vars:
