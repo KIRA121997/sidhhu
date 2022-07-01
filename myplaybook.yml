@@ -1,11 +1,11 @@
--  name: playbook1 
-   hosts: all
-   vars:
-     URL: global.com
+- name: playbook1 
+  hosts: localhost
+  vars:
+    URL: global.com
    tasks: 
    - name: print message_1
      debug:
       msg: "{{URL}}"
-    vars:
-     URL: local.com
+  vars:
+    URL: local.com
           
