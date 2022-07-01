@@ -3,7 +3,7 @@
     vars:
       URL: global.com
     tasks: 
-    - name: print_message
+    - name: print message_1
     debug:
       msg: "{{URL}}"
     vars:
