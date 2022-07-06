@@ -1,6 +1,6 @@
 - name: copy module
-  hosts: all
   become: true
+  hosts: all
   tasks:
     - name: copy file
       copy: 
