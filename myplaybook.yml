@@ -4,6 +4,6 @@
   tasks:
     - name: copy file
       copy: 
-        src: /home/ubuntu/n.virginia.pem
+        src: hosts
         dest: /mnt/redshift.txt
 
