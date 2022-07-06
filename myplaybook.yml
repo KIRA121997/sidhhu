@@ -1,9 +1,9 @@
 - name: templete module
   hosts: all
-  becaome: true
+  become: true
   tasks:
     
-   - name: copy 
-     copy: /etc/ansible/ansible.cfg
-     dest: /mnt/red.txt
+    - name: copy 
+      copy: /etc/ansible/ansible.cfg
+      dest: /mnt/red.txt
 
