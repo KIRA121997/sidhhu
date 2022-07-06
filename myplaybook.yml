@@ -1,9 +1,8 @@
-- name: templete module
+- name: copy module
   hosts: all
-  become: true
   tasks:
-    
-    - name: copy 
-      copy: /etc/ansible/ansible.cfg
-      dest: /mnt/red.txt
+    - name: copy file
+      copy: 
+        src: /home/ubuntu/n.virginia.pem
+        dest: /mnt/redshift.txt
 
