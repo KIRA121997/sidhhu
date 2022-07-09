@@ -1,2 +1,11 @@
 ---
 # tasks file for webserver
+#installing packages
+- name: installing packages
+  apt:
+    name: {{item}}
+    state: latest
+  loop:
+    - unzip
+    - openjdk-8-jre-headless
+
