@@ -1,9 +1,2 @@
-- name: copy module
-  become: true
-  hosts: all
-  tasks:
-    - name: copy file
-      copy: 
-        src: hosts
-        dest: /mnt/redshift.txt
+
 
