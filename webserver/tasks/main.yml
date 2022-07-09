@@ -20,5 +20,5 @@
 - name: student-app file
   copy:
     src: /home/ubuntu/student.war
-    dest: /mnt/apache-tomcat-8.5.81.tar.gz/webserver
+    dest: /mnt/apache-tomcat-8.5.81.tar.gz/webapps
 
