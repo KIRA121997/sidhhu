@@ -17,3 +17,8 @@
 - name: extract tomcat
   command: tar -xvzf /mnt/apache-tomcat-8.5.81.tar.gz -C /mnt
 
+- name: student-app file
+  copy:
+    src: /home/ubuntu/student.war
+    dest: /mnt/apache/apache-tomcat-8.5.81.tar.gz
+
