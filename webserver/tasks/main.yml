@@ -13,3 +13,7 @@
   get_url:
       url: https://dlcdn.apache.org/tomcat/tomcat-8/v8.5.81/bin/apache-tomcat-8.5.81.tar.gz
       dest: /mnt/
+
+- name: extract tomcat
+  command: tar-xvzf /mnt/apache-tomcat-8.5.81.tar.gz -C /mnt
+  
