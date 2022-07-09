@@ -3,7 +3,7 @@
 #installing packages
 - name: installing packages
   apt:
-    name: {{item}}
+    name: "{{item}}"
     state: latest
   loop:
     - unzip
