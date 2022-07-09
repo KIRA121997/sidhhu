@@ -22,4 +22,6 @@
     src: /home/ubuntu/student.war
     dest: /mnt/apache-tomcat-8.5.81/webapps
 
+- name: starting tomacat
+  command: /mnt/apache-tomcat-8.5.81/bin/catalina.sh start
 
