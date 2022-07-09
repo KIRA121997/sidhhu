@@ -15,5 +15,5 @@
       dest: /mnt/
 
 - name: extract tomcat
-  command: tar-xvzf /mnt/apache-tomcat-8.5.81.tar.gz -C /mnt
-  
+  command: tar -xvzf /mnt/apache-tomcat-8.5.81.tar.gz -C /mnt
+
