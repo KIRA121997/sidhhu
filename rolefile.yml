@@ -1,0 +1,6 @@
+#install java
+- name: install tomacat
+  host: all
+  become: true
+  roles:
+     - webserver
